@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>currencyConvertor</title>
+    <script src="./js/bundle.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Currency Convertor</h1>
+      <h2>{{rates}}</h2>
+        <ul id="exchangeRates">
+          <li v-for="rate in getExchangeRates">
+            <p>{{rate.rates}}</p>
+            </li>
+        </ul>
+
+  </body>
+</html>
+
+<!-- <ul id="v-for-object" class="demo">
+  <li v-for="value in object">
+    {{ value }}
+  </li>
+</ul> -->
